@@ -1,0 +1,217 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>App framework 7</title>
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <link rel="stylesheet" href="css/framework7.bundle.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main view-init">
+            <!-- Initial Page, "data-name" contains page name -->
+            <section class="panel panel-left panel-cover">
+                <div class="block">
+                    <div class="row">
+                        <article class="col-50">
+                            COLLECTOR
+                        </article>
+                    </div>
+                </div>
+                <div class="list menu">
+                    <ul class="listita">
+                        <li>
+                            <a href="/home/" class="item-link item-content">
+                                <div class="item-media">
+                                    <span class="material-icons">help</span>
+                                </div>
+                                <div class="item-inner">
+                                    inicio
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/perfil/" class="item-link item-content">
+                                <div class="item-media">
+                                    <span class="material-icons">help</span>
+                                </div>
+                                <div class="item-inner">
+                                    perfil
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about/" class="item-link item-content">
+                                <div class="item-media">
+                                    <span class="material-icons">help</span>
+                                </div>
+                                <div class="item-inner">
+                                    categorias
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about/" class="item-link item-content">
+                                <div class="item-media">
+                                    <span class="material-icons">help</span>
+                                </div>
+                                <div class="item-inner">
+                                    promociones
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about/" class="item-link item-content">
+                                <div class="item-media">
+                                    <span class="material-icons">help</span>
+                                </div>
+                                <div class="item-inner">
+                                    mis ordenes
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about/" class="item-link item-content">
+                                <div class="item-media">
+                                    <span class="material-icons">help</span>
+                                </div>
+                                <div class="item-inner">
+                                    salir
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <div data-name="home" class="page">
+
+                <!-- Top Navbar -->
+                <div class="navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner">
+                        <div class="left">
+                            <a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+                        </div>
+                        <div class="title">Floristeria</div>
+                    </div>
+                </div>
+
+
+                <!-- Scrollable page content -->
+                <article class="page-content">
+                    <div class="block">
+                        <div class="swiper-container swiper-init">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <article class="card card-food">
+                                        <div class="card-header">
+                                            <img src="img/flore.jpg" class="img-fluid" width="55%">
+                                        </div>
+                                        <div class="card-content text-align-center">
+                                            <div class="row">
+                                                <article class="col">
+                                                    Flores
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <!--swiper slide-->
+                                <div class="swiper-slide">
+                                    <article class="card card-food">
+                                        <div class="card-header">
+                                            <img src="img/flore_2.jpg" class="img-fluid" width="55%">
+                                        </div>
+                                        <div class="card-content text-align-center">
+                                            <div class="row">
+                                                <article class="col">
+                                                    Flores
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <!--swiper slide-->
+                            </div>
+                        </div>
+                        <!--swiper-->
+
+                    </div>
+                    <!--block-->
+                    <div class="block categorias">
+                        <div class="row">
+                            <article class="col-50">
+                                <a href="/flores/">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <div class="derecha">
+                                                <img src="img/svalen.jpg" class="img-fluid" width="30%">
+                                            </div>
+                                            <h3>Amor y amistad</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="col-50">
+                                <a href="/flores/">
+                                    <div class="card">
+
+                                        <div class="card-content">
+                                            <div class="derecha">
+                                                <img src="img/svalen.jpg" class="img-fluid" width="30%">
+                                            </div>
+                                            <h3>Funebres</h3>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="col-50">
+                                <a href="/flores/">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <div class="derecha">
+                                                <img src="img/svalen.jpg" class="img-fluid" width="30%">
+                                            </div>
+                                            <h3>cumpleaños</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="col-50">
+                                <a href="/flores/">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <div class="derecha">
+                                                <img src="img/svalen.jpg" class="img-fluid" width="30%">
+                                            </div>
+                                            <h3>bodas</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                    <!--categorias-->
+                </article>
+                <!--page content-->
+            </div>
+        </div>
+    </div>
+    <script src="js/framework7.min.js"></script>
+    <script src="js/framework7.bundle.min.js"></script>
+    <script src="js/my-app.js"></script>
+</body>
+
+</html>
