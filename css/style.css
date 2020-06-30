@@ -17,3 +17,31 @@
 .page {
     background-color: #c49b9b;
 }
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.item-media {
+    padding-right: 5px;
+}
+
+.info-producto .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #aaaaaa;
+}
+
+.info-producto .title {
+    font-size: 22px;
+}
+
+.info-producto .info {
+    color: #aaa;
+}
+
+.info-producto .precio {
+    color: var(--azul);
+    font-size: 16px;
+}
